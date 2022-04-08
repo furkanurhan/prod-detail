@@ -121,5 +121,15 @@ export default {
     width: 400px;
   }
 }
-
+@media only screen and (max-width: 800px) {
+  .pro-wrapper {
+    display: block;
+    .pro-thumbnail {
+      width: 340px !important;
+    }
+    .pro-detail {
+      width: 340px !important;
+    }
+  }
+}
 </style>

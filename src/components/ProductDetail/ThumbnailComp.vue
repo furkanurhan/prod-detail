@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="current-image">
-      <img :src="imageListComp[activeImageIndex]" alt="" width="400" height="400">
+      <img :src="imageListComp[activeImageIndex]" alt="">
     </div>
     <div>
       <div
@@ -62,6 +62,10 @@ export default {
 <style lang="scss" scoped>
 .current-image {
   margin-bottom: 30px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 .image {
   display: inline-block;
