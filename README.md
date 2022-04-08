@@ -1,6 +1,20 @@
-# 328c55c5fca9a0e9786e077b244f3b17
+## Overview
 
-## Project setup
+### API
+
+More realistic app, API is created using node.js and deployed on heroku. "https://n11-test-api.herokuapp.com/productDetail"
+
+#### EndPoints
+
+productDetail is only endpoint for all info.
+
+### Product Detail App
+
+created at vue.js framework, deployed on heroku, Visit: https://furkanurhan-product-detail.herokuapp.com/#/
+
+## Scripts
+
+### Project setup
 ```
 npm install
 ```
@@ -15,15 +29,9 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+## Deployment
 
-### Lints and fixes files
-```
-npm run lint
-```
+* Heroku as free providers is used for automated deployments.
+* It is synchronous with Github "master" repo to automated deploy.
+* Normally Heroku wait sleep mode, For that reason make you wait nearly 15 second at first request.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
