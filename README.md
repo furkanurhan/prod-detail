@@ -32,6 +32,6 @@ npm run build
 ## Deployment
 
 * Heroku as free providers is used for automated deployments.
-* It is synchronous with Github "master" repo to automated deploy.
+* It is synchronous with Github "main" branch to automated deploy.
 * Normally Heroku wait sleep mode, For that reason make you wait nearly 15 second at first request.
 
